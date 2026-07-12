@@ -1,0 +1,27 @@
+import React from "react";
+import { Navigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext.jsx";
+import { C } from "../theme.js";
+
+function FullScreenLoader() {
+  return (
+    <div className="min-h-screen flex items-center justify-center" style={{ color: C.primary }}>
+      <div className="w-10 h-10 rounded-full border-4 border-current border-t-transparent animate-spin" />
+    </div>
+  );
+}
+
+export function ProtectedRoute({ children }) {
+  const { user, loading } = useAuth();
+  if (loading) return <FullScreenLoader />;
+  if (!user) return <Navigate to="/login" replace />;
+  return children;
+}
+
+export function AdminRoute({ children }) {
+  const { user, isAdmin, loading } = useAuth();
+  if (loading) return <FullScreenLoader />;
+  if (!user) return <Navigate to="/login" replace />;
+  if (!isAdmin) return <Navigate to="/dashboard" replace />;
+  return children;
+}

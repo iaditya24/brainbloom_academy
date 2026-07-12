@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg2)"/>
+  <!-- table -->
+  <rect x="90" y="190" width="220" height="16" rx="8" fill="#CBD5E1"/>
+  <!-- mentor -->
+  <circle cx="150" cy="120" r="24" fill="#2563EB"/>
+  <rect x="118" y="150" width="64" height="70" rx="20" fill="#1D4ED8"/>
+  <!-- student -->
+  <circle cx="270" cy="128" r="20" fill="#F59E0B"/>
+  <rect x="242" y="154" width="56" height="60" rx="18" fill="#F97316"/>
+  <!-- open book between them -->
+  <path d="M175 175 Q200 160 225 175 L225 195 Q200 182 175 195 Z" fill="#ffffff" stroke="#7C3AED" stroke-width="2"/>
+  <line x1="200" y1="168" x2="200" y2="190" stroke="#7C3AED" stroke-width="2"/>
+  <!-- question mark bubble -->
+  <circle cx="270" cy="80" r="22" fill="#ffffff" stroke="#06B6D4" stroke-width="2.5"/>
+  <text x="270" y="89" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#06B6D4" text-anchor="middle">?</text>
+  <!-- lightbulb idea bubble -->
+  <circle cx="130" cy="70" r="20" fill="#ffffff" stroke="#7C3AED" stroke-width="2.5"/>
+  <path d="M130 58 a10 10 0 0 1 4 19 v3 h-8 v-3 a10 10 0 0 1 4 -19 Z" fill="#7C3AED" opacity="0.85"/>
+  <circle cx="60" cy="240" r="30" fill="#2563EB" opacity="0.08"/>
+  <circle cx="350" cy="230" r="26" fill="#06B6D4" opacity="0.12"/>
+</svg>
