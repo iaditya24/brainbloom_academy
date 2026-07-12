@@ -9,7 +9,7 @@ import { getFirestore } from "firebase/firestore";
    Full step-by-step instructions are in SETUP.md at the project root.
 --------------------------------------------------------------- */
 const firebaseConfig = {
-  apiKey: "AIzaSyAZBRr6003aZWhSLLomgOI9RAyZyHbVE78",
+  apiKey: "AIzaSyAZBRr6O03aZWhSLLomgOI9RAyZyHbVE78",
   authDomain: "brainbloom-academy-aed23.firebaseapp.com",
   projectId: "brainbloom-academy-aed23",
   storageBucket: "brainbloom-academy-aed23.firebasestorage.app",
