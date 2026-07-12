@@ -682,8 +682,8 @@ export default function Home() {
             <p className="text-sm font-semibold mb-2" style={{ color: C.primary }}>CONTACT</p>
             <h2 className="text-3xl sm:text-4xl font-bold mb-6" style={heading}>Let's get your child started</h2>
             <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-3 text-sm"><Phone size={16} color={C.primary} /> +91 98765 43210</div>
-              <div className="flex items-center gap-3 text-sm"><Mail size={16} color={C.primary} /> hello@brainbloomacademy.in</div>
+              <div className="flex items-center gap-3 text-sm"><Phone size={16} color={C.primary} /> +91 75085 02734</div>
+            <div className="flex items-center gap-3 text-sm"><Mail size={16} color={C.primary} /> adityarajput2734@gmail.com</div>
               <div className="flex items-center gap-3 text-sm"><MapPin size={16} color={C.primary} /> BrainBloom Academy, Sector 12, Your City</div>
             </div>
             <div className="rounded-2xl border h-52 flex items-center justify-center" style={{ backgroundColor: cardBg, borderColor: cardBorder }}>
@@ -789,7 +789,7 @@ export default function Home() {
 
       {/* FLOATING BUTTONS */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/917508502734"
         target="_blank" rel="noreferrer"
         className="fixed bottom-6 left-6 z-40 w-14 h-14 rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-transform"
         style={{ backgroundColor: "#25D366" }}
